@@ -67,7 +67,9 @@
         <Grid x:Name="MainGrid" Background="#262626">
             <Button x:Name="HotKeyButton" Click="HotKeyButton_Click" KeyDown="HotKeyButton_KeyDown" Background="#FFDB1F" BorderBrush="#FFFF00" Content="K" HorizontalAlignment="Left" Margin="63,79,0,0" VerticalAlignment="Top" Width="167" Height="46" FontSize="20" Style="{DynamicResource ButtonStyle}"/>
             <TextBox x:Name="ValueTextBox" TextChanged="ValueTextBox_TextChanged" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Height="32" Margin="109,210,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="71" RenderTransformOrigin="0.283,0.913" FontSize="20"/>
-            <Button x:Name="SubmitButton" Click="SubmitButton_Click" Background="#FFDB1F" BorderBrush="#FFFF00" Content="Submit" HorizontalAlignment="Left" Margin="109,315,0,0" VerticalAlignment="Top" Width="71" Height="32" FontSize="20" Style="{DynamicResource ButtonStyle}"/>
+            <Button x:Name="SubmitButton" Click="SubmitButton_Click" Background="#FFDB1F" BorderBrush="#FFFF00" Content="Submit" HorizontalAlignment="Left" Margin="93,322,0,0" VerticalAlignment="Top" Width="106" Height="32" FontSize="20" Style="{DynamicResource ButtonStyle}"/>
+            <Label HorizontalContentAlignment="Center" Foreground="White" Content="HotKey Button" HorizontalAlignment="Left" Margin="63,48,0,0" VerticalAlignment="Top" Width="167" FontSize="16"/>
+            <Label HorizontalContentAlignment="Center" Foreground="White" Content="Delay" HorizontalAlignment="Left" Margin="109,179,0,0" VerticalAlignment="Top" Width="71" FontSize="16"/>
         </Grid>
     </Grid>
 </Window>
