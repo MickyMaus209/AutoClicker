@@ -91,7 +91,6 @@ namespace AutoClicker
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             listener.UnHookKeyboard();
-            click.Stop();
         }
 
         private void ValueTextBox_TextChanged(object sender, TextChangedEventArgs e)
