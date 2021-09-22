@@ -1,2 +1,2 @@
 # AutoClicker
-![alt text](https://ibb.co/02T0rk7)
+![alt text](https:///images/210922/.png)
